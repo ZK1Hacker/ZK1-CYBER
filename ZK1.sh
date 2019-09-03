@@ -13,8 +13,9 @@ echo "\33[0;32m[2] \33[31;1mSpam Call"
 echo "\33[0;32m[3] \33[31;1mDDOS Attack"
 echo "\33[0;32m[4] \33[31;1mLink Web Vuln Deface Webdav"
 echo
-echo "\33[0;32m[5] \33[31;1mInstall Bahan"
-echo "\33[0;32m[6] \33[31;1mKELUAR"
+echo "\33[0;32m[5] \33[31;1mMembuat Script Deface Tanpa Coding"
+echo "\33[0;32m[6] \33[31;1mInstall Bahan"
+echo "\33[0;32m[7] \33[31;1mKELUAR"
 echo "Install Bahan Dulu Supaya Gak Gagal"
 echo
 read -p "Masukan Pilihan Anda :" roniyt
@@ -38,6 +39,10 @@ sh vulnweb.sh
 ;;
 5)
 clear
+python2 creator.py
+;;
+6)
+clear
 pkg update
 pkg upgrade
 pkg install figlet
@@ -48,8 +53,7 @@ pkg install git
 pkg install python
 pkg install python2
 sh ZK1-Cyber.sh
-;;
-6)
+7)
 clear
 echo "Berhasil Keluar"
 echo "Terimakasih Telah Memakai TOOL Saya"
