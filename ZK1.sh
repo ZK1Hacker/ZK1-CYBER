@@ -53,6 +53,7 @@ pkg install git
 pkg install python
 pkg install python2
 sh ZK1-Cyber.sh
+;;
 7)
 clear
 echo "Berhasil Keluar"
