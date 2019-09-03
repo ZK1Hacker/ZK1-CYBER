@@ -13,7 +13,7 @@ echo "\33[0;32m[2] \33[31;1mSpam Call"
 echo "\33[0;32m[3] \33[31;1mDDOS Attack"
 echo "\33[0;32m[4] \33[31;1mLink Web Vuln Deface Webdav"
 echo "\33[0;32m[5] \33[31;1mMembuat Script Deface Tanpa Coding"
-echo "\33[0;33m[6] \33[31;1mHack Facebook Terbaru 2019"
+echo "\33[0;32m[6] \33[31;1mHack Facebook Terbaru 2019"
 echo
 echo "\33[0;32m[7] \33[31;1mInstall Bahan"
 echo "\33[0;32m[8] \33[31;1mKELUAR"
