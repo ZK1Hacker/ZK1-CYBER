@@ -15,7 +15,7 @@ echo "\33[0;32m[4] \33[31;1mLink Web Vuln Deface Webdav"
 echo "\33[0;32m[5] \33[31;1mMembuat Script Deface Tanpa Coding"
 echo "\33[0;32m[6] \33[31;1mHack Facebook Terbaru 2019"
 echo "\33[0;32m[7] \33[31;1mCara Memutar Lagu/Video YuTube Di Termux"
-echo "\33[0;32m[8] \33[31;1mSedang Maintenance !!, Mohon Tunggu.."
+echo "\33[0;32m[8] \33[31;1mScript Termux TERBARU"
 echo "\33[0;32m[9] \33[31;1mSedang Maintenance !!, Mohon Tunggu.."
 echo "\33[0;32m[10] \33[31;1mSedang Maintenance !!, Mohon Tunggu.."
 echo
@@ -62,9 +62,15 @@ mpsyt
 ;;
 8)
 clear
-echo "Lagi Di Update Mohon Tunggu.."
-echo "Jika Kalian Ingin Tutorial Lainnya Cek YouTube RoniYT"
-echo "Link : https://m.youtube.com/channel/UCNHZbNTS69kwCYJ8jcLzUzQ/"
+apt update
+apt upgrade
+apt install python2
+apt install python
+apt install mpv
+pip install mps-youtube
+pip install youtube-dl
+clear
+mpsyt
 ;;
 9)
 clear
