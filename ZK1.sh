@@ -67,7 +67,6 @@ apt upgrade
 git clone https://github.com/termux/termux-api-package
 cd termux-api-package
 scripts
-clear
 ;;
 9)
 clear
