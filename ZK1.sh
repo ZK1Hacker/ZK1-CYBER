@@ -64,13 +64,10 @@ mpsyt
 clear
 apt update
 apt upgrade
-apt install python2
-apt install python
-apt install mpv
-pip install mps-youtube
-pip install youtube-dl
+git clone https://github.com/termux/termux-api-package
+cd termux-api-package
+scripts
 clear
-mpsyt
 ;;
 9)
 clear
