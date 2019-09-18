@@ -91,7 +91,7 @@ pip2 install lolcat
 pkg install git
 pkg install python
 pkg install python2
-sh ZK1-Cyber.sh
+sh ZK1.sh
 ;;
 12)
 clear
