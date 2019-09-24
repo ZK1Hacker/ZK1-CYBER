@@ -90,9 +90,10 @@ apt update
 apt upgrade
 pkg install nmap
 clear
-echo "Author : ZK1_CYBER"
-echo "[+] Perintah Ketik : nmap -v -A (link website) [+]"
-echo "[!] Warning !! Setiap Detik IP Bisa Berubah - Ubah"
+figlet ZK1IP | lolcat
+echo "Author : ZK1_CYBER" | lolcat
+echo "[+] Perintah Ketik : nmap -v -A (link website) [+]" | lolcat
+echo "[!] Warning !! Setiap Detik IP Bisa Berubah - Ubah" | lolcat
 ;;
 99)
 clear
