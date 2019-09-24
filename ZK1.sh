@@ -18,9 +18,14 @@ echo "\33[0;32m[7] \33[31;1mCara Memutar Lagu/Video YuTube Di Termux"
 echo "\33[0;32m[8] \33[31;1mScript Termux TERBARU"
 echo "\33[0;32m[9] \33[31;1mHack CCTV"
 echo "\33[0;32m[10] \33[31;1mVirtex WhatsApp"
+echo "\33[0;32m[11] \33[31;1mLacak IP Websites"
+echo "\33[0;32m[12] \33[31;1mSedang Proses, Mohon Sabar"
+echo "\33[0;32m[13] \33[31;1mSedang Proses, Mohon Sabar"
+echo "\33[0;32m[14] \33[31;1mSedang Proses, Mohon Sabar"
+echo "\33[0;32m[15] \33[31;1mSedang Proses, Mohon Sabar"
 echo
-echo "\33[0;32m[11] \33[31;1mInstall Bahan"
-echo "\33[0;32m[12] \33[31;1mKELUAR"
+echo "\33[0;32m[99] \33[31;1mInstall Bahan"
+echo "\33[0;32m[88] \33[31;1mKELUAR"
 echo "Install Bahan Dulu Supaya Gak Gagal"
 echo
 read -p "Masukan Pilihan Anda :" roniyt
@@ -82,6 +87,15 @@ sh virtex.sh
 ;;
 11)
 clear
+echo "Author : ZK1_CYBER"
+echo "[+] Perintah Ketik : nmap -v -A (link website) [+]"
+echo "[!] Warning !! Setiap Detik IP Bisa Berubah - Ubah"
+apt update
+apt upgrade
+pkg install nmap
+;;
+99)
+clear
 pkg update
 pkg upgrade
 pkg install figlet
@@ -93,7 +107,7 @@ pkg install python
 pkg install python2
 sh ZK1.sh
 ;;
-12)
+88)
 clear
 echo "Berhasil Keluar"
 echo "Terimakasih Telah Memakai TOOL Saya"
