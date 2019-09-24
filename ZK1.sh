@@ -86,13 +86,13 @@ cd VIRTEX
 sh virtex.sh
 ;;
 11)
+apt update
+apt upgrade
+pkg install nmap
 clear
 echo "Author : ZK1_CYBER"
 echo "[+] Perintah Ketik : nmap -v -A (link website) [+]"
 echo "[!] Warning !! Setiap Detik IP Bisa Berubah - Ubah"
-apt update
-apt upgrade
-pkg install nmap
 ;;
 99)
 clear
