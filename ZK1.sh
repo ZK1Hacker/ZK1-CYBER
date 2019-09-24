@@ -17,7 +17,7 @@ echo "\33[0;32m[6] \33[31;1mHack Facebook Terbaru 2019"
 echo "\33[0;32m[7] \33[31;1mCara Memutar Lagu/Video YuTube Di Termux"
 echo "\33[0;32m[8] \33[31;1mScript Termux TERBARU"
 echo "\33[0;32m[9] \33[31;1mHack CCTV"
-echo "\33[0;32m[10] \33[31;1mSedang Maintenance !!, Mohon Tunggu.."
+echo "\33[0;32m[10] \33[31;1mVirtex WhatsApp"
 echo
 echo "\33[0;32m[11] \33[31;1mInstall Bahan"
 echo "\33[0;32m[12] \33[31;1mKELUAR"
@@ -76,9 +76,9 @@ python2 scan.py
 ;;
 10)
 clear
-echo "Lagi Di Update Mohon Tunggu.."
-echo "Jika Kalian Ingin Tutorial Lainnya Cek YouTube RoniYT"
-echo "Link : https://m.youtube.com/channel/UCNHZbNTS69kwCYJ8jcLzUzQ/"
+git clone https://github.com/muhammadfathul/VIRTEX
+cd VIRTEX
+sh virtex.sh
 ;;
 11)
 clear
