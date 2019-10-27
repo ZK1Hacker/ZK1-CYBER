@@ -98,6 +98,7 @@ echo "[!] Warning !! Setiap Detik IP Bisa Berubah - Ubah" | lolcat
 12)
 pkg install fish
 fish
+echo "Ketik : telnet towel.blinkenlights.nl"
 telnet towel.blinkenlights.nl
 ;;
 13)
