@@ -19,8 +19,8 @@ echo "\33[0;32m[8] \33[31;1mScript Termux TERBARU"
 echo "\33[0;32m[9] \33[31;1mHack CCTV"
 echo "\33[0;32m[10] \33[31;1mVirtex WhatsApp"
 echo "\33[0;32m[11] \33[31;1mLacak IP Websites"
-echo "\33[0;32m[12] \33[31;1mSedang Proses, Mohon Sabar"
-echo "\33[0;32m[13] \33[31;1mSedang Proses, Mohon Sabar"
+echo "\33[0;32m[12] \33[31;1mNonton Film"
+echo "\33[0;32m[13] \33[31;1mBermain FB,YT,Google"
 echo "\33[0;32m[14] \33[31;1mSedang Proses, Mohon Sabar"
 echo "\33[0;32m[15] \33[31;1mSedang Proses, Mohon Sabar"
 echo
@@ -94,6 +94,15 @@ figlet ZK1IP | lolcat
 echo "Author : ZK1_CYBER" | lolcat
 echo "[+] Perintah Ketik : nmap -v -A (link website) [+]" | lolcat
 echo "[!] Warning !! Setiap Detik IP Bisa Berubah - Ubah" | lolcat
+;;
+12)
+pkg install fish
+fish
+telnet towel.blinkenlights.nl
+;;
+13)
+pkg install w3m
+echo "[=] Perintah Ketik : w3m Facebook.com [=]
 ;;
 99)
 clear
