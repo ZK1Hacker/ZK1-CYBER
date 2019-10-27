@@ -102,7 +102,7 @@ telnet towel.blinkenlights.nl
 ;;
 13)
 pkg install w3m
-echo "[=] Perintah Ketik : w3m Facebook.com [=]
+echo "[=] Perintah Ketik : w3m Facebook.com [=]"
 ;;
 99)
 clear
