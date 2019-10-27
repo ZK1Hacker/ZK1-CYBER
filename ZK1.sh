@@ -97,13 +97,13 @@ echo "[!] Warning !! Setiap Detik IP Bisa Berubah - Ubah" | lolcat
 ;;
 12)
 pkg install fish
+echo "Ketik : telnet towel.blinkenlights.nl" | lolcat
 fish
-echo "Ketik : telnet towel.blinkenlights.nl"
 telnet towel.blinkenlights.nl
 ;;
 13)
 pkg install w3m
-echo "[=] Perintah Ketik : w3m Facebook.com [=]"
+echo "[=] Perintah Ketik : w3m Facebook.com [=]" | lolcat
 ;;
 99)
 clear
